@@ -1,4 +1,4 @@
-# Powershell-Option-Selector
+# WindowsTerminal-Option-Selector
 A script that allows you to choose & automate what to do when you launch Windows Terminal
 
 This only works with Windows Terminal, as you really can't tell PowerShell to run a script on launch, unless you specify it as a launch argument.
