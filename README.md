@@ -21,7 +21,7 @@ Be sure to create entries for any other options you have made, if you have made 
 
 Now, to get the script to run when Windows Terminal starts:
 
-In your Windows Terminal settings, either create a new profile and set it as default, or modify your current default profile. If you don't know how to create a new profile or modify an existing one, the [Windows Terminal documentation](https://docs.microsoft.com/en-us/windows/terminal/customize-settings/profile-settings) is a great resource.
+In your Windows Terminal settings, either create a new profile and set it as default, or modify your current default profile. If you don't know how to create a new profile or modify an existing one, the [Windows Terminal documentation](https://github.com/MicrosoftDocs/terminal/blob/master/TerminalDocs/customize-settings/profile-settings.md) is a great resource.
 
 You will need to add the `CommandLine` attribute to your profile, or edit it if it already exists, to have the script run whenever Windows Terminal launches. The attribute uses format of `powershell.exe C:\\Path\\To\\Script.ps1`, as shown below:
 
