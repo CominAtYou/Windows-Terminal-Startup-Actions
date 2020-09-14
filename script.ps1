@@ -23,6 +23,4 @@
     }
 }
 
-# Uncomment the line below if PowerShell throws an error for something but it works fine (e.g. it likes to throw an error when connecting to SSH, but the error is meaningless)
-# $ErrorActionPreference = "SilentlyContinue"
 doStuff
